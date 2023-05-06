@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "cd demo && mvn spring-boot:run",
-    "build": "cd client && npm run build",
+    "build": "cd client && npm run build && npm start",
     "test": "cd client && npm run test"
   },  
   "dependencies": {
