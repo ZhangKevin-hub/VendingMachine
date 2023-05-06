@@ -13,10 +13,11 @@ Ensure that you have Java 11 installed on your machine
 Run the application using the Spring Boot plugin or build a JAR file using Maven and run it from the command line
 Usage:
 Once the application is running, you can access it by visiting your web browser. This will display the main page of the vending machine app, which allows you to select a product and make a payment.
-![screenshot 1](../client/src/images/Screenshots/srcnsht1.png)
-![screenshot 2](../client/src/images/Screenshots/srcnsht2.png)
-![screenshot 3](../client/src/images/Screenshots/srcnsht3.png)
-![screenshot 4](../client/src/images/Screenshots/srcnsht4.png)
+![screenshot 1](./client/src/images/screenshots/srcnsht1.png)
+![screenshot 2](./client/src/images/screenshots/srcnsht2.png)
+![screenshot 3](./client/src/images/screenshots/srcnsht3.png)
+![screenshot 4](./client/src/images/screenshots/srcnsht4.png)
+
 
 
 # Contributing:
