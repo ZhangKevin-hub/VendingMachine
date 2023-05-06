@@ -3,7 +3,7 @@
 # Description:
 The Vending Machine App is a simple application built using the Spring Boot framework that simulates the behavior of a vending machine. The app allows users to select a product and make a payment in order to receive their desired item. The project also includes a basic frontend interface that displays the available products, accepts user input, and handles the transaction flow. The inventory is obtained via csv file in src/main/resources.
 <br>
-This application is an overhaul of a previous project that consisted of reading and writing files with a similar vending machine but now with a web-based UI.
+This application is an overhaul of a previous project that consisted of reading and writing files with a similar vending machine but now with a web-based UI. Previous Project: https://github.com/ZhangKevin-hub/VendingMachineTechElevator
 # Installation:
 To install and run the application, follow these steps:
 
