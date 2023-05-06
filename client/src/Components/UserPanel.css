@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Press Start 2P', cursive;
+}
+.userpan{
+    margin: 2em;
+}
+.panel {
+  background-color: #ffe992; /* Change the background color */
+  border-right: 1.5em solid #dc93d6; /* Change the border color */
+  border-radius: 10px;
+  border-left: .5em solid #ffb4f9;
+  border-top: 1em solid #fecffb;
+  border-bottom: .5em solid #ffb4f9;
+  padding: 2em;
+  margin-bottom: 2em;
+  font-family: "Press Start 2P", cursive;
+  font-size: 16px;
+  color: #0090ad; /* Change the font color */
+  text-shadow: 1px 1px #0b655c; /* Change the text shadow */
+}
+
+
+button {
+  background-color: #009688; /* Change the background color */
+  border: .1em solid #FF9800; /* Change the border color */
+  padding: .5em;
+  margin: .5em;
+  font-family: "Press Start 2P", cursive;
+  font-size: 16px;
+  color: #FF9800; /* Change the font color */
+  text-shadow: 1px 1px #009688; /* Change the text shadow */
+  cursor: pointer;
+}
+.screen-gray{
+  min-height: 25em;
+  max-width: 46em;
+  border: 10px solid rgb(247, 247, 247);
+  margin: 0px 2em 2em 2em;
+  background-color: gainsboro;
+}
+button:hover {
+  background-color: #c5a100; /* Change the background color */
+  color: #009688; /* Change the font color */
+  text-shadow: none; /* Remove the text shadow */
+}
+.panel button {
+    background-color: #ffc0e1; /* Change the background color */
+    color: #c82e4f; /* Change the font color */
+    text-shadow: none; /* Remove the text shadow */
+    border-color: #eed8ec;
+    border-bottom-color: #c82e4f;
+  }
+  .panel button:hover {
+    background-color: #c82e4f; /* Change the background color */
+    color: #ffc0e1; /* Change the font color */
+    text-shadow: none; /* Remove the text shadow */
+    border-color: #c82e4f;
+
+  }
+input[type="number"] {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 1em;
+  font-family: "Press Start 2P", cursive;
+  font-size: 16px;
+  color: #009ca2; /* Change the font color */
+  background-color: #93d9ff; /* Change the background color */
+  box-shadow: 2px 2px #006996; /* Change the box shadow */
+}

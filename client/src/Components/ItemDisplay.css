@@ -1,0 +1,71 @@
+.display{
+    display: flex;
+    flex-wrap: wrap;
+    border: .6em solid rgb(247, 247, 247);
+    margin: 0px 40px 40px 40px;
+    background-color: gainsboro;
+    max-width: 10000px;
+}
+
+.display .item{
+    max-width: 400px;
+    max-height: 400px;
+    background-color: gainsboro;
+
+}
+.display > div {
+    flex: 1 0 40%; /* Adjust this value as per your requirement */
+    box-sizing: border-box;
+    padding: .6em;
+  }
+.display .extraQuant {
+    display: inherit;
+    background-color: gainsboro;
+    margin-bottom: 0px;
+}
+.display .one{
+    position: absolute;
+    margin-left: 2em;
+}
+.display .two{
+    position: relative;
+}
+.display .floor{
+    padding-top: .6em;
+    border-right: .6em solid gray;
+    border-bottom: .6em solid rgb(89, 89, 89);
+    background-color: rgb(188, 188, 188);
+}
+.display .outlayer {
+    background-color: black;
+    color: greenyellow;
+    margin: 0px 2em .6em 2em;
+    padding: .6em 0px .6em 0px;
+}
+
+.display p {
+    animation: slide 1s linear infinite;
+    font-size: 15px;
+}
+
+  
+@keyframes slide {
+    0% {
+        transform: translateX(-1%);
+
+    }
+    50%{
+        transform: translateX(5%);
+
+    }
+    100% {
+        transform: translateX(-1%);
+
+    }
+}
+  
+
+
+.display:hover p {
+    animation: none;
+}
