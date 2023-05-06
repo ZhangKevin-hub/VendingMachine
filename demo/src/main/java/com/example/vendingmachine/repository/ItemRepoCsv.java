@@ -105,7 +105,7 @@ public class ItemRepoCsv implements ItemRepository {
                 writer.writeNext(line);
             }
         } catch (IOException e) {
-            throw new RuntimeException("Error saving items to CSV file", e);
+            throw new RuntimeException(e);
         }
     }
 

@@ -75,7 +75,6 @@ import api from '../api';
               return gum1;
           }
       }
-    
     };
     return (
       <div className="display">

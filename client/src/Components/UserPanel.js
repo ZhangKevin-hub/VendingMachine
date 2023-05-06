@@ -54,37 +54,37 @@ const UserPanel = ({ isDisabled }) => {
   };
   const cash = [10000, 5000, 2000, 1000, 500, 100, 25, 10, 5];
   const labels = [
-    "Hundred dollar bill",
-    "Fifty dollar bill",
-    "Twenty dollar bill",
-    "Ten dollar bill",
-    "Five dollar bill",
-    "One dollar bill",
-    "Quarter",
-    "Dime",
-    "Nickel",
+      "Hundred dollar bill",
+      "Fifty dollar bill",
+      "Twenty dollar bill",
+      "Ten dollar bill",
+      "Five dollar bill",
+      "One dollar bill",
+      "Quarter",
+      "Dime",
+      "Nickel",
   ];
   const handlePurchaseFinish = () => {
     api.get(`/vending-machine/return-money`)
-      .then((response) => {
-        setCurrentFund(0);
-        if (response.data === 0) {
-          return "";
-        }
-        let fund = Math.round(response.data * 100);
-        let change = "Your change is: ";
-        for (let i = 0; i < cash.length; i++) {
-          if (fund >= cash[i]) {
-            const amount = Math.floor(fund / cash[i]);
-            fund -= amount * cash[i];
-            change += `${amount} ${labels[i]}${amount > 1 ? "s" : ""}, `;
+        .then((response) => {
+          setCurrentFund(0);
+          if (response.data === 0) {
+            return "";
           }
-        }
-        setTimeout(() => {
-          setMessage(change);
-        }, 0);
-      })
-      .catch(console.error);
+          let fund = Math.round(response.data * 100);
+          let change = "Your change is: ";
+          for (let i = 0; i < cash.length; i++) {
+            if (fund >= cash[i]) {
+              const amount = Math.floor(fund / cash[i]);
+              fund -= amount * cash[i];
+              change += `${amount} ${labels[i]}${amount > 1 ? "s" : ""}, `;
+            }
+          }
+          setTimeout(() => {
+            setMessage(change);
+          }, 0);
+        })
+        .catch(console.error);
   };
   
   
@@ -117,7 +117,6 @@ const UserPanel = ({ isDisabled }) => {
           </div>
         ))}
       </div>
-
       <p>|-{message}-|</p>
       <button onClick={handleRestockClick} disabled={isDisabled}>Restock</button>
       {isDisabled ? <div className="screen-gray"/> : <ItemDisplay className="screen" items={items}/>}

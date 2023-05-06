@@ -1,15 +1,9 @@
-import { useState, useEffect } from 'react';
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
-import ItemDisplay from './Components/ItemDisplay';
 import UserPanel from './Components/UserPanel';
-import { getAllItems } from "./api";
 
 function App() {
-  const [items, setItems] = useState([]);
-
   const [started, setStarted] = useState(false);
-
   const handleStart = () => {
     setStarted(true);
   };

@@ -2,10 +2,10 @@
   "name": "vending-machine",
   "version": "1.0.0",
   "scripts": {
-    "start": "cd demo && mvn -f pom.xml spring-boot:run",
+    "start": "cd demo && mvn spring-boot:run",
     "build": "cd client && npm run build",
     "test": "cd client && npm run test"
-  },
+  },  
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

@@ -14,7 +14,7 @@
 
 }
 .display > div {
-    flex: 1 0 40%; /* Adjust this value as per your requirement */
+    flex: 1 0 40%;
     box-sizing: border-box;
     padding: .6em;
   }
@@ -64,8 +64,6 @@
     }
 }
   
-
-
 .display:hover p {
     animation: none;
 }

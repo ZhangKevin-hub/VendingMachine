@@ -40,7 +40,7 @@ public class VendingMachineController {
     public String purchaseItem(@RequestParam String slot) {
         try {
             Item item = vendingMachineService.getItemBySlot(slot);
-            if (item.getQuantity() <= 0) {
+            if (item.getQuantity() < 1) {
                 return "Item out of stock";
             }
             if (moneyBalance.compareTo(BigDecimal.valueOf(item.getCost())) < 0) {
