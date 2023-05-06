@@ -1,1 +1,1 @@
-web: cd demo && mvn clean install && java $JAVA_OPTS -jar target/*.jar
+web: cd demo && mvn clean install && java -jar target/*.jar
