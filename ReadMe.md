@@ -15,8 +15,8 @@ Usage:
 Once the application is running, you can access it by visiting your web browser. This will display the main page of the vending machine app, which allows you to select a product and make a payment.
 ![screenshot 1](./client/src/images/Screenshots/scrnsht1.png)
 ![screenshot 2](./client/src/images/Screenshots/scrnsht2.png)
-![screenshot 3](./client/src/images/Screenshots/scrnsht1.png)
-![screenshot 4](./client/src/images/Screenshots/scrnsht1.png)
+![screenshot 3](./client/src/images/Screenshots/scrnsht3.png)
+![screenshot 4](./client/src/images/Screenshots/scrnsht4.png)
 
 
 
