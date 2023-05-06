@@ -1,5 +1,19 @@
 {
+  "name": "vending-machine",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cd demo && mvn spring-boot:run",
+    "build": "cd client && npm run build",
+    "test": "cd client && npm run test"
+  },
   "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "js-big-decimal": "^1.4.1"
+  },
+  "devDependencies": {
+    "axios": "^1.4.0",
+    "jest": "^27.0.6",
+    "react-scripts": "5.0.1"
   }
 }
