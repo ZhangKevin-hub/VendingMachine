@@ -21,4 +21,4 @@ Once the application is running, you can access it by visiting your web browser.
 
 
 # Contributing:
-If you'd like to contribute to the project, please fork the repository and create a new branch for your changes. Once you've made your changes, submit a pull request and we'll review it as soon as possible.
+If you'd like to contribute to the project, please fork the repository and create a new branch for your changes. Once you've made your changes, submit a pull request and I'll review it as soon as possible.
